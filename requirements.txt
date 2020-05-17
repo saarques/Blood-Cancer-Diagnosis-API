@@ -1,3 +1,4 @@
+gunicorn==20.0.4
 scipy>=0.14
 keras
 requests
