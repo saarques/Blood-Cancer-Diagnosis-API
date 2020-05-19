@@ -1,9 +1,9 @@
-from flask import Flask, jsonify, make_response, request
+from flask import Flask, jsonify, request
 # curl http://localhost:5000/predict \
 # --request POST \
 # --header "Content-Type: application/json" \
 # --data '{"address": "cell"}'
-import keras
+from tensorflow import keras
 import numpy as np
 from PIL import Image
 import os
